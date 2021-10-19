@@ -4,35 +4,35 @@ public class Tanaman {
     String caraBerkembangBiak;
     String tempatHidup;
 
-    void setNama(String nama) {
+    public void setNama(String nama) {
         this.nama = nama;
     }
 
-    String getNama(String nama) {
+    public String getNama(String nama) {
         return this.nama;
     }
 
-    void setJenis(String jenis) {
+    public void setJenis(String jenis) {
         this.jenis = jenis;
     }
 
-    String getJenis(String jenis) {
+    public String getJenis(String jenis) {
         return this.jenis;
     }
 
-    void setCaraBerkembangBiak(String caraBerkembangBiak) {
+    public void setCaraBerkembangBiak(String caraBerkembangBiak) {
         this.caraBerkembangBiak = caraBerkembangBiak;
     }
 
-    String getCaraBerkembangBiak(String caraBerkembangBiak) {
+    public String getCaraBerkembangBiak(String caraBerkembangBiak) {
         return this.caraBerkembangBiak;
     }
 
-    void setTempatHidup(String tempatHidup) {
+    public void setTempatHidup(String tempatHidup) {
         this.tempatHidup = tempatHidup;
     }
 
-    String getTempatHidup(String tempatHidup) {
+    public String getTempatHidup(String tempatHidup) {
         return this.tempatHidup;
     }
 

@@ -1,15 +1,18 @@
 public class DetailTanaman {
     public static void main(String[] args) {
         // buat objeck dengan variabel
-        var tanaman = new Tanaman(); 
+        var tanaman = new Tanaman();
 
-        // menampilkan method setter
+        // method setter
         tanaman.setNama("Mawar");
         tanaman.setJenis("Tanaman Berduri");
         tanaman.setCaraBerkembangBiak("Vegetatif");
         tanaman.setTempatHidup("Daratan");
 
-        // menampilkan method getter
-        System.out.println("Nama Tanaman : " + tanaman.setNama("Mawar");
+        // method getter
+        System.out.println("Nama Tanaman : " + tanaman.getNama("Mawar"));
+        System.out.println("Jenis Tanaman : " + tanaman.getJenis("Tanaman Berduri"));
+        System.out.println("Cara Berkembang Biak Tanaman : " + tanaman.getCaraBerkembangBiak("Vegetatif"));
+        System.out.println("Tempat Hidup Tanaman : " + tanaman.getTempatHidup("Daratan"));
     }
 }
